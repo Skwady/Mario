@@ -1,10 +1,10 @@
-body{
+body {
     background: url("../images/ciel.png") repeat-x;
     background-size: auto 100vh;
     margin: 0;
 }
 
-#paysage{
+#paysage {
     background: url("../images/paysage.png") repeat-x;
     position: fixed;
     bottom: 71px;
@@ -12,7 +12,7 @@ body{
     width: 100%;
 }
 
-#sol-bas{
+#sol-bas {
     background: url("../images/sol.png") repeat-x;
     position: fixed;
     bottom: 0;
@@ -20,7 +20,7 @@ body{
     width: 100%;
 }
 
-#sol-haut{
+#sol-haut {
     background: url("../images/sol2.png") repeat-x;
     position: fixed;
     bottom: 71px;
@@ -28,7 +28,7 @@ body{
     width: 100%;
 }
 
-#mario{
+#mario {
     background: url("../images/mario.png");
     height: 42px;
     width: 30px;
@@ -37,16 +37,16 @@ body{
     bottom: 68px;
     left: 50%;
 }
-.mario-droite{
+.mario-droite {
     animation: mario 0.5s steps(25) infinite;  
 }
-.mario-gauche{
+.mario-gauche {
     animation: mario 0.5s steps(25) infinite;
     transform: translateX(-50%) scaleX(-1);
 }
 
 
-@keyframes mario{
+@keyframes mario {
     100%{
         background-position-x: -1005px;
     }
